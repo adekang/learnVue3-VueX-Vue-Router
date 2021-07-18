@@ -1,17 +1,15 @@
 <template>
+  <h1>我是DemoB</h1>
 </template>
+
+
 <script>
-
-
 import {defineComponent} from 'vue'
-import { computed } from 'vue'
 
 export default defineComponent({
-  name: 'Counter ',
+  name: 'demoB',
   setup() {
-    console.log(store)
-    computed()
-  }
 
+  }
 })
 </script>

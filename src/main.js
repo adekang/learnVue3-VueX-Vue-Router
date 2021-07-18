@@ -1,12 +1,15 @@
 import {createApp} from 'vue'
-import App from './App.vue'
 import store from './store'
-// import VueRouter from 'vue-router'
+import router from './router/router'
+
+import App from './App.vue'
 
 const app = createApp(App)
 
 
+// window.sessionStorage.setItem('token', 'bsdhcbhsdbcjansjcnajs')
+
+app.use(router)
 app.use(store)
-// app.use(VueRouter)
 app.mount('#app')
 
